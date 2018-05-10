@@ -1,0 +1,48 @@
+css
+  É um acrônimo para Cascading StyleSheet
+  É uma linguagem de estilo e ESTATICA, porém pode ser extendida com Saas e Lass,
+
+Existem três formas para escrever css:
+  Inline: diretamente na tag html (não deve ser usado)
+  Internal: usando a tag <style> (também desencorajado pois o estilo ficar limitado ao arrquivo escrito, sem reuso)
+  External: Um arquivo independente com extensão css (é o comumente utilizado)
+
+
+SELETORES
+  Seletores Selecionam elementos do DOM, podendo ser genericos ou específicos.
+
+  podemose dissecar os seletores da seguinte forma:
+    o snipet abaixo seleciona a tag body e o "pintará" o fundo de amarelo e o que tiver escrito de verde.
+    body {
+      background-color: yellow;
+      color: green;
+    }
+
+    body - seletor
+    {} -  definem o escopo da declaração
+    baclground-color - propriedade a ser alterada
+    : - separador da propriedade e do valor
+    yellow - valor da propriedade
+    ; - separador dadeclarações
+
+CORES
+  são disponíveis as seguintes formas de atribuir cor aos elementos
+    nome das cores
+    nome das cores HTML5
+    hexadecimal
+    RGB
+
+  como podemos ver no snipet abaixo
+    body{
+      // com nome das cores
+      color: red;
+      background: coral;
+    }
+    h1{
+      //hexadecimal
+      color: #00ff00;
+    }
+    p{
+    // RGB
+      color: rgb(0,0,255);
+    }
