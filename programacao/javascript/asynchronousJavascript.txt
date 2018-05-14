@@ -1,0 +1,11 @@
+/*
+  My personal notes from meduin's tutorial in https://medium.com/codebuddies/getting-to-know-asynchronous-javascript-callbacks-promises-and-async-await-17e0673281ee
+*/
+
+in Wikepedia the definition of asynchronous programming is the occurrence of events INDEPENDENTLY of the main program flow and WAYS to deal with.
+
+in JS, programs are single threaded and ALL code is executed in SEQUENCE, NOT in Prallel.
+so, if all code is sequenced how js handle asynchronous code?
+With the concept of asynchronous nom-blocking IO model,
+  it's not hard to understanding, the executions of code is blocking, whith means one line will be executed afther other
+  however IO operations are nom-blocking, simplifying when you executes one requesition to server from client the JS's interprer sends this to another part of browser to handle it and follows to the sequence line, when this other part of browser says "hay a've just finished wath you asked"

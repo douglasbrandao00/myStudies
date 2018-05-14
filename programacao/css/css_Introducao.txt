@@ -12,7 +12,7 @@ SELETORES
   Seletores Selecionam elementos do DOM, podendo ser genericos ou específicos.
 
   podemose dissecar os seletores da seguinte forma:
-    o snipet abaixo seleciona a tag body e o "pintará" o fundo de amarelo e o que tiver escrito de verde.
+    o snipet abaixo seleciona a tag body e "pintará" o fundo de amarelo e o que tiver escrito de verde.
     body {
       background-color: yellow;
       color: green;
@@ -46,3 +46,12 @@ CORES
     // RGB
       color: rgb(0,0,255);
     }
+
+
+
+
+POSICIONAMENTO
+  Static
+  Relative
+  Absolute
+  Fixed
