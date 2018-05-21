@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.sidebar {
+  background: #242160;
+  position: absolute;
+  display: block;
+  width: 300px;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.sidebar-menu {
+  position: absolute;
+  width: 50px;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.sidebar-options {
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  left: 40px;
+  
+
+}
+
+.sidebar-options ul {
+  margin: 10px 0px;
+  padding: 0px;
+  left: 0px;
+  top: 0px;
+}
+
+
+.sidebar-options ul li {
+  list-style: none;
+}
+.sidebar-options ul li a {
+  background: #242160;
+  color: #FFF;
+  padding: 10px;
+  display: block;
+  width: 350px;
+  text-decoration: none;
+}
