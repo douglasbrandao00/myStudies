@@ -1,2 +1,2 @@
 # myStudies
-Compilação dos meus estudos
+Compilação dos meus estudos gerais
